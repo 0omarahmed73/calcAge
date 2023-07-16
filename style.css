@@ -215,6 +215,11 @@ label.error {
     .all {
       text-align: start;
     }
+  hr {
+    position: absolute;
+      left: 50%;
+      transform: translate(-50%, 0); 
+   } 
   }
 @media (max-width: 575.98px) and (min-width : 460px) {
   .parent {
@@ -273,6 +278,11 @@ label.error {
     .all {
       text-align: start;
     }
+  hr {
+    position: absolute;
+      left: 50%;
+      transform: translate(-50%, 0); 
+   } 
   }
 
 /* Small devices (576px and up) */
