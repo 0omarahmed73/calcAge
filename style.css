@@ -216,6 +216,7 @@ label.error {
       text-align: start;
     }
   hr {
+    width : 80;
     position: absolute;
       left: 50%;
       transform: translate(-50%, 0); 
@@ -279,6 +280,7 @@ label.error {
       text-align: start;
     }
   hr {
+    width : 80;
     position: absolute;
       left: 50%;
       transform: translate(-50%, 0); 
