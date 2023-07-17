@@ -215,13 +215,17 @@ label.error {
     .all {
       text-align: start;
     }
-  hr {
-    margin-left :0;
-    width : 290px;
-    position: absolute;
+    hr {
+      width: 80%;
+      margin-left: 0;
+      position: absolute;
       left: 50%;
-      transform: translate(-50%, 0); 
-   } 
+      transform: translateX(-50%);
+    }
+
+    .inputField {
+      width: calc(100% / 4);
+    }
   }
 @media (max-width: 575.98px) and (min-width : 460px) {
   .parent {
@@ -280,13 +284,10 @@ label.error {
     .all {
       text-align: start;
     }
-  hr {
-    margin-left :0;
-    width : 290px;
-    position: absolute;
-      left: 50%;
-      transform: translate(-50%, 0); 
-   } 
+
+    hr {
+      width: 80%;
+    }
   }
 
 /* Small devices (576px and up) */
