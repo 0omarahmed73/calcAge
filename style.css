@@ -220,6 +220,7 @@ label.error {
       margin-left: 0;
       position: absolute;
       left: 50%;
+      margin-top : 10px;
       transform: translateX(-50%);
     }
 
@@ -289,6 +290,7 @@ label.error {
     }
 
     hr {
+      margin-top : 10px;
       width: 80%;
     }
       .errorResult {
