@@ -226,6 +226,9 @@ label.error {
     .inputField {
       width: calc(100% / 4);
     }
+      .errorResult {
+      font-size: 8px !important;
+    }
   }
 @media (max-width: 575.98px) and (min-width : 460px) {
   .parent {
@@ -287,6 +290,9 @@ label.error {
 
     hr {
       width: 80%;
+    }
+      .errorResult {
+      font-size: 8px !important;
     }
   }
 
