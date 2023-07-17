@@ -220,10 +220,12 @@ label.error {
       margin-left: 0;
       position: absolute;
       left: 50%;
-      margin-top : 10px;
       transform: translateX(-50%);
     }
-
+    
+    .both{
+      margin-top : 10px;
+    } 
     .inputField {
       width: calc(100% / 4);
     }
@@ -288,9 +290,10 @@ label.error {
     .all {
       text-align: start;
     }
-
-    hr {
+    .both{
       margin-top : 10px;
+    } 
+    hr {
       width: 80%;
     }
       .errorResult {
